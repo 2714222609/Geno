@@ -1,0 +1,83 @@
+html,body{
+    height: 100%;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1A253D;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    padding: 24.72px 64.27px;
+    color: rgba(255, 255, 255, 0.75);
+    background-color: rgb(36, 52 , 86);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Top layer*/
+.navi_bar{
+    width: 100%;
+    padding: 8px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-top: 6px solid rgba(36, 52, 86, 0.75);
+}
+.logo{
+    padding: 16px 8px;
+    margin-left: 20px;
+}
+.navigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 16px;
+    align-items: center;
+}
+.navi{
+    padding: 16px 8px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+}
+
+/*Content*/
+.content_area{
+    margin: 0 50px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*Table*/
+.table_box{
+    width: 100%;
+    color: white;
+}
+table{
+    width: 100%;
+    border: 0;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+tr{
+    height: 60px;
+}
+.name{
+    width: 200px;
+}
+.version{
+    width: 125px;
+}
+a{
+    color: lightblue;
+}
